@@ -1,9 +1,7 @@
 ---
 layout: page
-title: University
+title: ""
 ---
-
-Under Construction.
 
 # École Polytechnique Fédérale de Lausanne
 
