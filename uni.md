@@ -8,7 +8,7 @@ title: ""
 
 ### 2021 Fall
 
-<details>
+<details markdown="1">
   <summary><strong> Machine Learning </strong></summary>
   
  Resources: 
