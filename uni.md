@@ -9,7 +9,7 @@ title: ""
 ### 2021 Fall
 
 <details>
-  <summary markdown='span'/><strong> Machine Learning </strong></summary>
+  <summary><strong> Machine Learning </strong></summary>
  
  Resources: 
   - https://github.com/epfml/ML_course
