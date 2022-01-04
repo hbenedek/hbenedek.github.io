@@ -9,22 +9,7 @@ title: ""
 ### 2021 Fall
 
 <details>
-  <summary>Click to expand!</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
-
-
-<details>
-  <summary>  
-   <strong>
-   Machine Learning
-   </strong>
- </summary>
+  <summary><strong> Machine Learning </strong></summary>
  
  Resources: 
   - https://github.com/epfml/ML_course
