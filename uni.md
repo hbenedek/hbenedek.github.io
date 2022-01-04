@@ -10,7 +10,7 @@ title: ""
 
 <details>
   <summary><strong> Machine Learning </strong></summary>
- 
+  
  Resources: 
   - https://github.com/epfml/ML_course
   - Kevin P. Murphy: Machine Learning: A Probabilistic Perspective
