@@ -50,7 +50,7 @@ title: ""
       2. How to publish reproducible results
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
    Markov Chains and Algorithmic Applications
@@ -73,7 +73,7 @@ title: ""
   - coupling from the past and exact simulation
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
    Stochastic Calculus
@@ -99,7 +99,7 @@ title: ""
   
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
    Introduction to Finance
@@ -119,7 +119,7 @@ title: ""
   - Financial derivatives
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
    Functional Programming
