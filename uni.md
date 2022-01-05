@@ -243,7 +243,7 @@ title: ""
 <details markdown="1">
   <summary>  
    <strong>
-    - Functional Analysis
+    Functional Analysis
    </strong>
  </summary>
 </details>
