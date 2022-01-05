@@ -149,7 +149,7 @@ title: ""
 # Eötvös Loránd University (Pure Mathematics)
 
 ### 2021 Spring
-<details>
+<details markdown="1">
   <summary>  
    <strong>
       Statistics
@@ -167,7 +167,7 @@ title: ""
   - Multidimensional normal distribution, estimation of parameters, Estimation and hypothesis testing in a linear model, Confidence sets and intervals
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
     Deep Learning
@@ -187,7 +187,7 @@ title: ""
   - Reinforecement Learning, Value Iteration, Self-Supervised Learning
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
    Fourier Analysis
@@ -210,7 +210,7 @@ title: ""
  
 ### 2020 Fall
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
     Probability Theory II
@@ -232,7 +232,7 @@ title: ""
   
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
     Complex Analysis
@@ -240,7 +240,7 @@ title: ""
  </summary>
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
     - Functional Analysis
@@ -248,7 +248,7 @@ title: ""
  </summary>
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
     Numerical Analyisis
@@ -256,7 +256,7 @@ title: ""
  </summary>
 </details>
 
-<details>
+<details markdown="1">
   <summary>  
    <strong>
      Differential Geometry
