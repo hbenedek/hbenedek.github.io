@@ -53,9 +53,24 @@ title: ""
 <details>
   <summary>  
    <strong>
-   Markov Chains
+   Markov Chains and Algorithmic Applications
    </strong>
  </summary>
+  
+  Content:
+  
+  Markov chains:
+  - basic properties: irreducibility, periodicity, recurrence/transience, stationary and limiting distributions
+  - ergodic theorem: coupling method
+  - detailed balance
+  - convergence rate to the equilibrium, spectral gap, mixing times
+  - cutoff phenomenon
+  
+  Sampling:
+  - classical methods, importance and rejection sampling
+  - Markov Chain Monte Carlo methods, Metropolis-Hastings algorithm, Glauber dynamics, Gibbs sampling
+  - applications: function minimization, coloring problem, satisfiability problems, Ising models
+  - coupling from the past and exact simulation
 </details>
 
 <details>
@@ -64,6 +79,24 @@ title: ""
    Stochastic Calculus
    </strong>
  </summary>
+  
+  Resources:
+  - S.E. Shreve, Stochastic Calculus for Finance I: The Binomial Asset Pricing Model 
+  - S.E. Shreve, Stochastic Calculus for Finance II: Continuous-Time Models
+  
+  Content:
+   - Random variables, characteristic functions, limit theorems
+   - Markov processes
+   - Kalman filter
+   - Ito calculus, Brownian Motion
+   - Stochastic differential equations, BS equations
+   - Feynman-Kac theorem on the stochastic representation of solutions to partial differential equations
+   - Martingale representation
+   - Girsanov theorem
+   - Optimal stochastic control, HJB equation
+   - Numerical simulation
+  
+  
 </details>
 
 <details>
