@@ -156,13 +156,15 @@ title: ""
    </strong>
  </summary>
   
-  Content:
+  Resources:
+  - <a href="statistics.pdf" target="blank">Lecture Notes</a> (in Hungarian)
   
+  Content:
   -Statistical field, Distribution of experience, Glivenko-Cantelli theorem, Sufficiency, Fisher information
-  - Point eestimates, Unbiasedness, permissibility, minimality, effectiveness, consistency, Blackwellization, Information limit. 
+  - Point estimates, unbiasedness, permissibility, minimality, effectiveness, consistency, Blackwellization, Information limit
   - Empirical estimates, momentum method, maximum-likelihood estimation, Bayes estimate. 
   - Hypothesis testing, Neyman-Pearson's lemma, Classic parametric tests. c2 tests, Classic non-parametric tests. 
-  - Multidimensional normal distribution, estimation of parameters, Estimation and hypothesis testing in a linear model, Confidence sets and intervals.
+  - Multidimensional normal distribution, estimation of parameters, Estimation and hypothesis testing in a linear model, Confidence sets and intervals
 </details>
 
 <details>
@@ -171,6 +173,18 @@ title: ""
     Deep Learning
    </strong>
  </summary>
+  
+  Resources:
+  - <a href="https://github.com/elte-ttk-deeplearning/elte-ttk-deeplearning.github.io" target="blank">Github Page</a>
+  - Ian Goodfellow and Yoshua Bengio and Aaron Courville: Deep Learning 
+  
+  Content:
+  - Neural Networks, cost functions, gradient descent, learning rate, regularization, backpropagation
+  - CNN, pooling, image classification, batch normalization
+  - ResNets, GAN, Variational Autoencoder, StyleGAN
+  - NLP, tokenization, word2vec, LSTM, convolution
+  - Attention, Transformers, BERT
+  - Reinforecement Learning, Value Iteration, Self-Supervised Learning
 </details>
 
 <details>
@@ -179,15 +193,76 @@ title: ""
    Fourier Analysis
    </strong>
  </summary>
+  
+ Resources:
+  - Elias M. Stein & Rami Shakarc: Fourier analysis an introduction 
+  
+  Content:
+  - Orthogonal system, the normative, uniform and point convergence of a Fourier series
+  - Fourier series expansion according to a trigonometric system, its uniform and pointwise convergence
+  - Approximation of continuous functions with trigonometric polynomial, Fejér's theorem, Weierstrass's approximation theorem
+  - The isoperimetric problem, Fourier method for solving mixed problems of thermal conductivity and wave equation.
+  - Discrete Fourier transform. The fast Fourier transform (FFT)
+  - Basic properties of the Fourier transform. Schwartz space and the inversion formula. Extension to broader function classes.
+  - Applications: the heat core, Poisson summation, Heisenberg's uncertainty principle
+  - The wave equation. The Huygens principle in dimensions 1 and 3. The Radon Transformation
 </details>
  
 ### 2020 Fall
 
- - Probability Theory II
- - Complex Analysis
- - Functional Analysis
- - Numerical Analyisis
- - Differential Geometry
+<details>
+  <summary>  
+   <strong>
+    Probability Theory II
+   </strong>
+ </summary>
+  
+  Resources:
+  - <a href="probability_2.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+
+  Content:
+  - Random variables, distribution, density, density transform (absolutely continous functions)
+  - Independence of events, RVs, sigma-algebra, Komogorov 0-1 law
+  - Convergence of RVs: in probability, almost surely, in distribution, weakly, Lp convergence
+  - Law of Large Numbers, Prohorov theorem (tightness of measures to relative compactness)
+  - Levy inequality, characteristic functions, Inversion formula, Lévy's continuity theorem
+  - Central Limit theorem, Lindeberg-Feller
+  - Conditional expectation, conditional density, martingales
+  - Martingale convergence theorems, Strong Law of Large Numbers
+  
+</details>
+
+<details>
+  <summary>  
+   <strong>
+    Complex Analysis
+   </strong>
+ </summary>
+</details>
+
+<details>
+  <summary>  
+   <strong>
+    - Functional Analysis
+   </strong>
+ </summary>
+</details>
+
+<details>
+  <summary>  
+   <strong>
+    Numerical Analyisis
+   </strong>
+ </summary>
+</details>
+
+<details>
+  <summary>  
+   <strong>
+     Differential Geometry
+   </strong>
+ </summary>
+</details>
 
 ### 2019 Spring
  - Analysis IV (Measure Theory)
