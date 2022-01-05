@@ -158,6 +158,7 @@ title: ""
   
   Resources:
   - <a href="statistics.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+  - 
   
   Content:
   -Statistical field, Distribution of experience, Glivenko-Cantelli theorem, Sufficiency, Fisher information
@@ -238,6 +239,14 @@ title: ""
     Complex Analysis
    </strong>
  </summary>
+ 
+ Content:
+ - Cauchy-Riemann equations, holomorphic functions, complex logarithm, complex series
+ - complex line integrals, Newton-Leibniz theorem, Cauchy theorem, Goursat Lemma, 
+ - Taylor expension, Liouville theorem, Fundamental Theorem of Algebra, Unicity theorem, Swartz Lemma
+ - Singularities, Laurent series, Rouche theorem, Argument principle, Residue theorem
+ - Conformal mappings, Riemann mapping theorem
+ - Harmonic functions, Poisson-kernel, Dirichlet boundary problem
 </details>
 
 <details markdown="1">
@@ -246,6 +255,15 @@ title: ""
     Functional Analysis
    </strong>
  </summary>
+ 
+ Resources:
+  - <a href="http://web.cs.elte.hu/~tarcsay/funkcionalanalizis.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+  - Hilbert spaces: internal or scalar product, CSB inequality for half-scalar product, l2, L2 spaces. Riesz theorem, distance from subspace
+  - For orthonormal systems in Hilbert space: generalized Fourier series expansion: Bessel inequality, Parseval identity, Continuous linear functions in Hilbert space. Riesz's representation theorem: construction of continuous linear functionals
+  - Continuous linear operators in Hilbert space: norm, numerical radius, adjoint, spectrum of operators. Special operators: self-adjoint, unitary, normal operators, orthogonal projections. Compact Operators in Hilbert space: The Hilbert-Schmidt theorem 
+  - Banach spaces: Baire category theorem, Continuous linear functionals in normed spaces, Hahn-Banach theorem and its applications, Mazur-Orlicz theorem, Continuous linear operators in Banach spaces: adjoint of operators, spectrum, Neumann series. Banach-Steinhaus theorems, Banach open mapping and closed graph theorem, Compact Operators in Banach space: Fundamentals of Riesz-Fredholm Theory
 </details>
 
 <details markdown="1">
@@ -254,6 +272,14 @@ title: ""
     Numerical Analyisis
    </strong>
  </summary>
+ 
+ Content:
+ - Systems of Linear  equations, Matrix Factorizations: LU, LDL*, Cholesky, QR. Gaussian elimination
+ - Iteration techniques, Banach fix point convergence theorems. Jacobi, Seidel iterations, relaxation methods
+ - Univariate interpolation: Lagrange, Hermite interpolation. Spline interpolation. Bernstein polynomials, B-splines
+ - Techniques for solving nonlinear equations: Methods based on Banach fixed point theorem, Newton method, Broyden method
+ 
+ 
 </details>
 
 <details markdown="1">
