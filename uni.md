@@ -155,6 +155,14 @@ title: ""
       Statistics
    </strong>
  </summary>
+  
+  Content:
+  
+  -Statistical field, Distribution of experience, Glivenko-Cantelli theorem, Sufficiency, Fisher information
+  - Point eestimates, Unbiasedness, permissibility, minimality, effectiveness, consistency, Blackwellization, Information limit. 
+  - Empirical estimates, momentum method, maximum-likelihood estimation, Bayes estimate. 
+  - Hypothesis testing, Neyman-Pearson's lemma, Classic parametric tests. c2 tests, Classic non-parametric tests. 
+  - Multidimensional normal distribution, estimation of parameters, Estimation and hypothesis testing in a linear model, Confidence sets and intervals.
 </details>
 
 <details>
