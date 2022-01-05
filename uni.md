@@ -12,7 +12,7 @@ title: ""
   <summary><strong> Machine Learning </strong></summary>
   
  Resources: 
-  - https://github.com/epfml/ML_course
+  - <a href="https://github.com/epfml/ML_course">Course Github</a>
   - Kevin P. Murphy: Machine Learning: A Probabilistic Perspective
  
  Content:
@@ -24,12 +24,30 @@ title: ""
  - Advanced methods: Adversarial learning, Generative adversarial networks
 </details>
 
-<details>
-  <summary>  
-   <strong>
-   Applied Data Analysis
-   </strong>
- </summary>
+<details markdown="1">
+  <summary><strong> Applied Data Analysis</strong></summary>
+  
+  Resources:
+  - <a href="https://dlab.epfl.ch/teaching/fall2021/cs401/"> Course Page </a>
+
+  Content:
+   - Data wrangling
+      1. Data acqusition (scraping, crawling, parsing, etc.)
+      2. Data manipulation, array programming, dataframes
+      3. The many sources of data problems (and how to fix them): missing data, incorrect data, inconsistent representations
+      4. Data quality testing with crowdsourcing
+   - Data interpretation
+      1. Statistics in practice (distribution fitting, statistical significance, etc.)
+      2. Working with "found data" (design of observational studies, regression analysis)
+      3. Machine learning in practice (supervised and unsupervised, feature engineering, more data vs. advanced algorithms, curse of dimensionality, etc.)
+      4. Text mining: vector space model, topic models, word embedding
+      5. Social network analysis (influencers, community detection, etc.)
+ - Data visualization
+      1. Introduction to different plot types (1, 2, and 3 variables), layout best practices, network and geographical data
+      2. Visualization to diagnose data problems, scaling visualization to large datasets, visualizing uncertain data
+ - Reporting
+      1. Results reporting, infographics
+      2. How to publish reproducible results
 </details>
 
 <details>
