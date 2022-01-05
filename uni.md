@@ -105,6 +105,18 @@ title: ""
    Introduction to Finance
    </strong>
  </summary>
+  
+  Resources:
+  -  Corporate Finance, 2nd edition (Berk & DeMarzo)
+  
+  Content:
+  - Introduction to finance
+  - Arbitrage, discounting, and the term structure of interest rates
+  - Introduction to the valuation of bonds and stocks
+  - Risk and return
+  - Capital Budgeting
+  - Capital Structure Decisions
+  - Financial derivatives
 </details>
 
 <details>
@@ -113,16 +125,53 @@ title: ""
    Functional Programming
    </strong>
  </summary>
+  
+  Resources:
+  - Programming in Scala (Third Edition) / Odersky
+  - <a href="https://www.coursera.org/learn/scala-functional-programming?specialization=scala"> Odersky's Coursera Course</a>
+  
+  Content:
+   - Introduction to programming in Scala
+   - Functions and Evaluation
+   - Higher-Order Functions
+   - Data and Abstraction
+   - Types and pattern matching
+   - Lists
+   - Collections
+   - Lazy evaluation
+   - For expressions, generators and monads
+   - Functions and State
+   - Lambda calculus 
+   - Interpreting Functional Languages
 </details>
 
 
 # Eötvös Loránd University (Pure Mathematics)
 
 ### 2021 Spring
+<details>
+  <summary>  
+   <strong>
+      Statistics
+   </strong>
+ </summary>
+</details>
 
- - Statistics
- - Deep Learning
- - Fourier Analysis
+<details>
+  <summary>  
+   <strong>
+    Deep Learning
+   </strong>
+ </summary>
+</details>
+
+<details>
+  <summary>  
+   <strong>
+   Fourier Analysis
+   </strong>
+ </summary>
+</details>
  
 ### 2020 Fall
 
