@@ -240,6 +240,9 @@ title: ""
    </strong>
  </summary>
  
+ Resources:
+ - <a href="https://kosgeza.web.elte.hu/oktatas/2020osz-kft/KFT-jegyzet_2021-09-12.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ 
  Content:
  - Cauchy-Riemann equations, holomorphic functions, complex logarithm, complex series
  - complex line integrals, Newton-Leibniz theorem, Cauchy theorem, Goursat Lemma, 
@@ -273,6 +276,9 @@ title: ""
    </strong>
  </summary>
  
+ Resources:
+ - <a href= http://rs1.szif.hu/~gasparcs/Matek3-numanal.pdf target="blank">Lecture Notes</a> (in Hungarian)
+ 
  Content:
  - Systems of Linear  equations, Matrix Factorizations: LU, LDL*, Cholesky, QR. Gaussian elimination
  - Iteration techniques, Banach fix point convergence theorems. Jacobi, Seidel iterations, relaxation methods
@@ -288,16 +294,91 @@ title: ""
      Differential Geometry
    </strong>
  </summary>
+ 
+ Resources: 
+ - <a href="https://web.cs.elte.hu/geometry/vl/KlasszDiffGeo.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+
+Content:
+- Smooth curves, paramterized curves, curvature, torsion functions, Frenet basis, Fundamental theorem of curves, curves in R^n
+- Smooth hypersurface, tangent space, Weingarten mapping, Mainardi-Codazzi equations, Christoffel symbols
+- Gaussian curvature, first and second fundamental forms, Gauss-Bonnet Theorem, minimal surfaces, Theorema egregium
+
 </details>
 
 ### 2019 Spring
- - Analysis IV (Measure Theory)
- - Probability Theory I
- - Computational Tehory
- - Operation Research II
- - Geometry III (Projective and Hyperbolic)
- - Algebra IV (Rings and Fields)
- - Programming in Python
+
+<details markdown="1">
+  <summary>  
+   <strong>
+     Analysis IV (Measure Theory)
+   </strong>
+ </summary>
+ 
+ Resources:
+ - Laczkovich Miklós-T.Sós Vera: Analízis II. Egyetemi jegyzet, Nemzeti Tankönyvkiadó, 2007
+ - Petruska György: Analízis II. Egyetemi jegyzet, ELTE Eötvös Kiadó, 1988
+ - <a href="https://kosgeza.web.elte.hu/oktatas/2019tavasz-an4/Analizis4_Jegyzetek_v18.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Measures, Sigma algebra, generated sigma algebra, Borel sets, Sigma-additive set function, outer measure, measure. Carathéodory's extension theorem, completeness, Lebesgue and Lebesgue-Stieltjes outer measure and measure, regularity
+ - Measurable functions, Convergence almost surely, Jegorov's theorem, Luzin's theorem, Lebesgue and Lebesgue Stieltjes integrals, Integration of function sequences
+ - Total variation, Jordan Decomposition, Hahn's decomposition theorem. Radon-Nikodym theorem. Absolutely continuous and singular measures. Lebesgue decomposition
+ - Differentiation of Borel measures, Lebesgue density point theorem, Newton-Leibniz formula, Product of measurement spaces. Fubini's theorem. Integrale transformations, Lp function classes, Convolution, Fourier transform
+ 
+</details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+     Probability Theory I
+   </strong>
+ </summary>
+
+ Content:
+ - Probability field, Conditional probability, Independence, Random variable, distribution, expected value, standard deviation. 
+ - Joint distribution, marignal distributions, Covariance, correlation. 
+ - Simple symmetrical random walk, Reflection principle and its applications, Distribution of various random quantities associated with random walks (hitting times). 
+ - Markov, Chebyshev, Chernoff inequality. Borel-Cantelli's lemma. Weak and strong laws of large numbers, Local/Global Moivre-Laplace theorem.  
+ - The iterated logarithm theorem. Convergence of discrete distributions. Poisson approximation. Generator function and its properties. 
+ - Notable absolute continuous distributions, density
+ 
+</details>
+<details markdown="1">
+  <summary>  
+   <strong>
+     Computational Tehory
+   </strong>
+ </summary>
+</details>
+<details markdown="1">
+  <summary>  
+   <strong>
+    Operation Research II
+   </strong>
+ </summary>
+</details>
+<details markdown="1">
+  <summary>  
+   <strong>
+      Geometry III (Projective and Hyperbolic)
+   </strong>
+ </summary>
+</details>
+<details markdown="1">
+  <summary>  
+   <strong>
+     Algebra IV (Rings and Fields)
+   </strong>
+ </summary>
+</details>
+<details markdown="1">
+  <summary>  
+   <strong>
+      Programming in Python
+   </strong>
+ </summary>
+</details>
+
 
 ### 2019 Fall
 
