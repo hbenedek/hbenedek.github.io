@@ -158,7 +158,6 @@ title: ""
   
   Resources:
   - <a href="statistics.pdf" target="blank">Lecture Notes</a> (in Hungarian)
-  - 
   
   Content:
   -Statistical field, Distribution of experience, Glivenko-Cantelli theorem, Sufficiency, Fisher information
@@ -277,7 +276,7 @@ title: ""
  </summary>
  
  Resources:
- - <a href= http://rs1.szif.hu/~gasparcs/Matek3-numanal.pdf target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="http://rs1.szif.hu/~gasparcs/Matek3-numanal.pdf" target="blank">Lecture Notes</a> (in Hungarian)
  
  Content:
  - Systems of Linear  equations, Matrix Factorizations: LU, LDL*, Cholesky, QR. Gaussian elimination
@@ -346,16 +345,39 @@ Content:
 <details markdown="1">
   <summary>  
    <strong>
-     Computational Tehory
+     Computational Theory
    </strong>
  </summary>
+ 
+ Resources:
+ - <a href="https://web.cs.elte.hu/~kiraly/alg.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Sorting, Dinamic Programming
+ - Turing machine, Random-access machine, Universal Turing Machine, k-tape Turing Machine
+ - Recursive and Recursive Enumerable Languages, Halting problem, Time and Space complexity
+ - P, NP, co-NP complexity and examples, Polynomial-time reduction
+ - Boole functions, SAT, Cook theorem, NP completeness
+ 
 </details>
+
 <details markdown="1">
   <summary>  
    <strong>
     Operation Research II
    </strong>
  </summary>
+ 
+ Resources:
+ - <a href="http://tkiraly.web.elte.hu/students/opkut_jegyzet_tamop.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - TU matrices, Simplex method for linear programming 
+ - Flow network problems, preflow-push-relabel algorithm, Integer programming
+ - Lagrange relaxation, Column generation algorithms, Approximation algorithms
+ - Game theory, Nash theorem, Lemke–Howson algorithm
+
+
 </details>
 <details markdown="1">
   <summary>  
