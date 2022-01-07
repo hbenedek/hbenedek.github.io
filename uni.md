@@ -377,28 +377,44 @@ Content:
  - Lagrange relaxation, Column generation algorithms, Approximation algorithms
  - Game theory, Nash theorem, Lemke–Howson algorithm
 
-
 </details>
+
 <details markdown="1">
   <summary>  
    <strong>
       Geometry III (Projective and Hyperbolic)
    </strong>
  </summary>
+ 
+ Resources:
+ -  <a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ Content:
+ 
 </details>
+
 <details markdown="1">
   <summary>  
    <strong>
      Algebra IV (Rings and Fields)
    </strong>
  </summary>
+ 
+ Resources:
+ - <a href="https://pelikan.web.elte.hu/algebra.html" target="blank">Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ 
 </details>
+
+
 <details markdown="1">
   <summary>  
    <strong>
       Programming in Python
    </strong>
  </summary>
+ 
+ 
 </details>
 
 
