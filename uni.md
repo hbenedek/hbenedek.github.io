@@ -503,8 +503,8 @@ Content:
        Geometry II (Euclidean)
    </strong>
  </summary>
- Resources:
  
+ Resources:
  -<a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
  
  Content:
@@ -541,8 +541,12 @@ Content:
  
  Resources:
  - <a href="https://simonp.web.elte.hu/files/kozdiff.pdf" target="blank">Péter Simon's Lecture Notes</a> (in Hungarian)
+ - <a href="https://simonp.web.elte.hu/files/dinrendjegyzet.pdf" target="blank">Péter Simon's Lecture Notes</a> (in Hungarian)
  
  Content:
+ - Separable equations, first order, second order linear diff equations, exsistance, unicity
+ - Autonomous differential equations. Phase curves, stability. Dynamic systems
+ - Stability theory: Ljapunov method, Poincaré-Brendixos theorem, stability of periodic solutions
  
 </details>
 
@@ -554,18 +558,201 @@ Content:
 
 ### 2018 Spring
 
- - Analysis II (Derivatives & Integrals)
- - Algebra II (Linear Algebra)
- - Geometry I (Affine)
- - Set Theory
- - Introduction to programming in C++
- - Discrete Mathematics II
- - Financial Modeling and Derivative Pricing (Discrete Time)
+<details markdown="1">
+  <summary>  
+   <strong>
+      Analysis II (Derivatives & Integrals)
+   </strong>
+ </summary>
+ 
+ Resources:
+ - Valós analízis I. (Laczkovich Miklós; T. Sós Vera)
+ 
+ Content:
+ - Differentiation, Derivative Rules, Derivatives of elementary functions, mean value theorems, local properties of real functions and connection with derivatives
+ - Taylor expansions, L'Hospitl rule, primitive, integral function, partial integration, integration by substitution
+ - Newton-Leibniz formula, Riemann integrals, Wallis-formula, Stirling-formula, Impoprius integrals
+ - Riemann-Stieltjes integrals, functions of bounded variation
+ - Series, absolute convergence, Leibniz series, Function series, uniform convergence, differentiation, limit, continuity
+ 
+ </details>
 
+<details markdown="1">
+  <summary>  
+   <strong>
+     Algebra II (Linear Algebra)
+   </strong>
+ </summary>
+ 
+ Resources:
+ - <a href="https://pelikan.web.elte.hu/algebra.html" target="blank">Ákos Göller's Lecture Notes</a> (in Hungarian)
+ - Kiss Emil: Bevezetés az algebrába
+ 
+ Content:
+ - Vector spaces, subspaces, generator, independent vector systems, basis, linear combination
+ - Dimension, linear maps, homomorphisms between vectors paces, matrix of linear maps, Change of basis
+ - Kernel, Image of linear maps, determinant, invertable linear transforms, rank, Gauss elimination
+ - Dual vector space, Diagonalizable matrices, eigenvalues, Cayley-Hamilton theorem, minimal polynomial, Jordan normal form
+ - Bilinear functions, Sylvester theorem, quadratic forms, Gram–Schmidt process, Euclidean spaces
+ - Adjoint, normal, unitary, orthogonal transformations, complex euclidean spaces, hermitian bilinear functions
+ 
+ </details>
+ 
+ <details markdown="1">
+  <summary>  
+   <strong>
+      Geometry I (Affine)
+   </strong>
+ </summary>
+ 
+  Resources:
+ -<a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Axioms, vector spaces, scalar product, cross product
+ - Spherical geometry
+ - Affine spaces, affine transformations, affin combination, hull, basis, Baricentric coordinates
+ - Ceva, Menelaos theorem
+ - Convex sets, Caratheodory, Radon, Helly theorems, Minkowski combinations
+ - Convex polyhedras, polytopes, Euler formula
+ </details>
+ 
+ <details markdown="1">
+  <summary>  
+   <strong>
+     Set Theory
+   </strong>
+ </summary>
+ 
+ Resources:
+ - <a href="https://web.cs.elte.hu/~kope/oktatas/21tav/ma1.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Axioms, subset, unon, intersection, power set, Descartes-product, Cardinality, Cantor theorem
+ - Russell paradox, Axiom of choice, Axiom schema of replacement, Ordinals
+ - Transfinit induction, transfinit recursion, Zorn lemma, Well-ordering theorem
+ - Continuum hypothesis, Aleph numbers, von Neumann cardinal assignment 
+ 
+ </details>
+ 
+ <details markdown="1">
+  <summary>  
+   <strong>
+     Discrete Mathematics II
+   </strong>
+ </summary>
+ 
+ Content:
+ - Gallai theorem, Kőnig-Hall theorem, Tutte theorem
+ - Ford-Fulkerson theorem
+ - Recursions, Catalan numbers, Fibonacci, linear recursions
+ - Ramsey theorem, Indexed families, Sperner, Erdos-Ko-Rado, Erdos-De Brujin theorems
+ - Finite projective and affine planes, latin squares
+ 
+ </details>
+ 
+ <details markdown="1">
+  <summary>  
+   <strong>
+     Introduction to programming in C++
+   </strong>
+ </summary>
+ 
+ Content:
+ - Data structures, strings, arrays, lists, booleans
+ - Basic algorthims, loops, max searching, summing, orderings
+ - Loops, condtions, cycles, functions types
+ - Compile, run, environments
+ - 
+ </details>
+ 
+ <details markdown="1">
+  <summary>  
+   <strong>
+     Financial Modeling and Derivative Pricing (Discrete Time)
+   </strong>
+ </summary>
+ 
+ Resources:
+ - <a href="https://www.coursera.org/specializations/financialengineering" target="blank"> Coursera</a> 
+
+ Content:
+ - Interest and basic fixed income securities; introduction to arbitrage pricing
+ -  Mechanics of forwards, futures, swaps and options. Option pricing in the 1-period binomial model
+ -  Derivatives pricing in the binomial model including European and American options; handling dividends; pricing forwards and futures; convergence of the binomial model to Black-Scholes.
+ -  Binomial lattice models of the short-rate; pricing fixed income derivative securities including caps, floors swaps and swaptions; the forward equations and elementary securities.
+ -  Introduction to credit-default swaps (CDS) and the pricing of CDS and defaultable bonds.
+ -  Basic mortgage mathematics; mechanics of mortgage-backed securities (MBS) 
+ 
+ </details>
+ 
 ### 2018 Fall
+ 
+ <details markdown="1">
+  <summary>  
+   <strong>
+      Analysis I (Series & Real Functions)
+   </strong>
+ </summary>
+ 
+  Resources:
+  - Valós analízis I. (Laczkovich Miklós; T. Sós Vera)
 
- - Analysis I (Series & Real Functions)
- - Algebra I
- - Discrete Mathematics I
- - Number Theory
+  Content:
+  - Inequalities, sets, functions, sequences
+  - Axioms of real numbers, construction of real numbers
+  - Limits, monotone sequences, liminf, limsup, Bolzano-Weierstrass theorem, Cauchy criterium
+  - Real functions, global properties, convexity, continuity, functions on bounded, closed intervals
+  - Elementary functions: polynomials, rational fractions, trigonometric functions, logarithms, inverse functions, hyperbolic functions, exponential functions
+  
+ </details>
+  
+   <details markdown="1">
+  <summary>  
+   <strong>
+      Algebra I
+   </strong>
+ </summary>
+ 
+ Resources:
+ - <a href="https://pelikan.web.elte.hu/algebra.html" target="blank">Ákos Göller's Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Complex numbers
+ - Polynomials, Lagrange, Newton interpolation, root multiplicity, Schönemann-Eisentein criterim, Cyclotomic polynomial
+ - Cardnano formula for cubic euations, quadric equations
+ - Permutations, cycles, symmetric groups, inversion
+ - Matrices, determinant, Gauss elimination, Cramer rule, linear eqution systems
+ - Discriminant, Resultant, Sturm's theorem 
+ 
+  </details>
+  
+   <details markdown="1">
+  <summary>  
+   <strong>
+    Number Theory
+   </strong>
+ </summary>
+ 
+ Content:
+ - Divisibility, Euclidean algorithm, Prime numbers, Fundamental theorem of arithmetic, gcd
+ - Multiplicative and Additive Arithmetic functions,
+ - Congruences, Euler's totient function, Reduced residue system, Euler-Fermat theorem
+ - 
+ 
+  </details>
+  
+   <details markdown="1">
+  <summary>  
+   <strong>
+      Discrete Mathematics I
+   </strong>
+ </summary>
+ 
+ Content:
+ 
+  </details>
+ 
+
+
 
