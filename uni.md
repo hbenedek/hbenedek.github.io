@@ -240,7 +240,7 @@ title: ""
  </summary>
  
  Resources:
- - <a href="https://kosgeza.web.elte.hu/oktatas/2020osz-kft/KFT-jegyzet_2021-09-12.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="https://kosgeza.web.elte.hu/oktatas/2020osz-kft/KFT-jegyzet_2021-09-12.pdf" target="blank">Géza Kós's Lecture Notes</a> (in Hungarian)
  
  Content:
  - Cauchy-Riemann equations, holomorphic functions, complex logarithm, complex series
@@ -259,7 +259,7 @@ title: ""
  </summary>
  
  Resources:
-  - <a href="http://web.cs.elte.hu/~tarcsay/funkcionalanalizis.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+  - <a href="http://web.cs.elte.hu/~tarcsay/funkcionalanalizis.pdf" target="blank">Zsigmond Tarcsay's Lecture Notes</a> (in Hungarian)
  
  Content:
   - Hilbert spaces: internal or scalar product, CSB inequality for half-scalar product, l2, L2 spaces. Riesz theorem, distance from subspace
@@ -276,7 +276,7 @@ title: ""
  </summary>
  
  Resources:
- - <a href="http://rs1.szif.hu/~gasparcs/Matek3-numanal.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="http://rs1.szif.hu/~gasparcs/Matek3-numanal.pdf" target="blank">Csaba Gáspár's Lecture Notes</a> (in Hungarian)
  
  Content:
  - Systems of Linear  equations, Matrix Factorizations: LU, LDL*, Cholesky, QR. Gaussian elimination
@@ -295,7 +295,7 @@ title: ""
  </summary>
  
  Resources: 
- - <a href="https://web.cs.elte.hu/geometry/vl/KlasszDiffGeo.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="https://web.cs.elte.hu/geometry/vl/KlasszDiffGeo.pdf" target="blank"> László Verhóczki's Lecture Notes</a> (in Hungarian)
 
 Content:
 - Smooth curves, paramterized curves, curvature, torsion functions, Frenet basis, Fundamental theorem of curves, curves in R^n
@@ -316,7 +316,7 @@ Content:
  Resources:
  - Laczkovich Miklós-T.Sós Vera: Analízis II. Egyetemi jegyzet, Nemzeti Tankönyvkiadó, 2007
  - Petruska György: Analízis II. Egyetemi jegyzet, ELTE Eötvös Kiadó, 1988
- - <a href="https://kosgeza.web.elte.hu/oktatas/2019tavasz-an4/Analizis4_Jegyzetek_v18.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="https://kosgeza.web.elte.hu/oktatas/2019tavasz-an4/Analizis4_Jegyzetek_v18.pdf" target="blank">Géza Kós's Lecture Notes</a> (in Hungarian)
  
  Content:
  - Measures, Sigma algebra, generated sigma algebra, Borel sets, Sigma-additive set function, outer measure, measure. Carathéodory's extension theorem, completeness, Lebesgue and Lebesgue-Stieltjes outer measure and measure, regularity
@@ -350,7 +350,7 @@ Content:
  </summary>
  
  Resources:
- - <a href="https://web.cs.elte.hu/~kiraly/alg.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="https://web.cs.elte.hu/~kiraly/alg.pdf" target="blank">László Lovász's Lecture Notes</a> (in Hungarian)
  
  Content:
  - Sorting, Dinamic Programming
@@ -369,7 +369,7 @@ Content:
  </summary>
  
  Resources:
- - <a href="http://tkiraly.web.elte.hu/students/opkut_jegyzet_tamop.pdf" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="http://tkiraly.web.elte.hu/students/opkut_jegyzet_tamop.pdf" target="blank">András Frank's Lecture Notes</a> (in Hungarian)
  
  Content:
  - TU matrices, Simplex method for linear programming 
@@ -387,9 +387,15 @@ Content:
  </summary>
  
  Resources:
- -  <a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Lecture Notes</a> (in Hungarian)
- Content:
+ -  <a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
  
+ Content:
+ - Projective Space, perspective drawing, projective transformations, projective harmonic conjugates 
+ - Desargues' Theorem and the Theorem of Pappus, duality, cross-ratio
+ - The fundamental theorem of projective geometry, Projective linear group, PGL(FP^n)
+ - Hypersurfaces, Pascal and Brianchon theorem, poles and polars, conic sections
+ - Hyperbolic geometry, Poincare model, Cayley-Klein model
+
 </details>
 
 <details markdown="1">
@@ -400,12 +406,15 @@ Content:
  </summary>
  
  Resources:
- - <a href="https://pelikan.web.elte.hu/algebra.html" target="blank">Lecture Notes</a> (in Hungarian)
+ - <a href="https://pelikan.web.elte.hu/algebra.html" target="blank">Ákos Göller's Lecture Notes</a> (in Hungarian)
  
  Content:
+ - Modules, K[x]-moduls, homomorphism, direct sum, projective and injective modules
+ - Rings, Semisimple rings, Wedderburn-Artin theorem, group algebra, Maschke theorem
+ - Field extensions, Algebraic, Normal, Separable, Galois extensions, Galois group
+ - Finite fields, Division rings, Wedderburn's little theorem, Abel–Ruffini theorem
  
 </details>
-
 
 <details markdown="1">
   <summary>  
@@ -414,18 +423,75 @@ Content:
    </strong>
  </summary>
  
+ Resources:
+ - <a href="https://damasdigabor.web.elte.hu/teaching.php" target="blank">Gábor Damásdi's Webpage </a> 
  
+ 
+ Content:
+ - interpreted language, Object Oriented programming
+ - dinamic variables
+ - string, list, tuple, dictionary, comprehensions
+ - Numpy, Scipy, Matplotlib, Netwokx
+ - Algorithms: Sudoku solver, BSF, DSF, Dijkstra 
 </details>
 
 
 ### 2019 Fall
 
- - Analysis III (Multivariable Calculus)
- - Algebra III (Group Theory)
- - Geometry II (Euclidean)
- - Introduction to Topology
- - Operation Research
- - Differential Equations
+
+<details markdown="1">
+  <summary>  
+   <strong>
+      Analysis III (Multivariable Calculus)
+   </strong>
+ </summary>
+</details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+      Algebra III (Group Theory)
+   </strong>
+ </summary>
+</details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+     Introduction to Topology
+   </strong>
+ </summary>
+</details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+       Geometry II (Euclidean)
+   </strong>
+ </summary>
+</details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+      Operation Research I
+   </strong>
+ </summary>
+</details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+      Differential Equations
+   </strong>
+ </summary>
+</details>
+
+ 
+
+
+
+ 
 
 ### 2018 Spring
 
