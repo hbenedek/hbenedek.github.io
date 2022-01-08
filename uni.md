@@ -387,7 +387,7 @@ Content:
  </summary>
  
  Resources:
- -  <a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
+ - <a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
  
  Content:
  - Projective Space, perspective drawing, projective transformations, projective harmonic conjugates 
@@ -435,7 +435,6 @@ Content:
  - Algorithms: Sudoku solver, BSF, DSF, Dijkstra 
 </details>
 
-
 ### 2019 Fall
 
 
@@ -445,6 +444,18 @@ Content:
       Analysis III (Multivariable Calculus)
    </strong>
  </summary>
+ 
+ Resources:
+ - Valós analízis II. (Laczkovich Miklós; T. Sós Vera)
+
+ Content:
+ - Topological concepts in Euclidean space, convergence, limit, continouity, metric space, Compact sets, Heine-Borel theorem
+ - Multivariate functions, partial derivation, gradient, Jacobi-matrix, Lagrange mean value theorem, Young theorem, Taylor series, chain rule, derivative of inverse function
+ - Extreme value tasks, convexity, constrained optimization, Lagrange multiplier method
+ - Inverse function theorem, Implicit function theorem
+ - Jordan "measure", multidimensional Jordan integral, Measure transformation/integral transformation, Volume of sphere
+ - Line integrals, Goursat Lemma, Green theorem, Maxwell equations
+ 
 </details>
 
 <details markdown="1">
@@ -453,6 +464,19 @@ Content:
       Algebra III (Group Theory)
    </strong>
  </summary>
+ 
+  Resources:
+ - <a href="https://pelikan.web.elte.hu/algebra.html" target="blank">Ákos Göller's Lecture Notes</a> (in Hungarian)
+
+  Content:
+  - Additive groups, matrix groups, Permuatioon groups, Alternating groups, Klein group
+  - Lagrange theorem, index, coset, Euler-Fermat theorem, subgroups
+  - Simple groups, normal subgroups, Isomorphism theorems, Homomorphism theorem, Cayley theorem, fector groups, conjugate classes
+  - Direct products, Abel groups, Dyck theorem, Free groups, composition chains, Jordan-Hölder theorem
+  - Sylow theorems, p-groups
+  
+ 
+ 
 </details>
 
 <details markdown="1">
@@ -461,6 +485,16 @@ Content:
      Introduction to Topology
    </strong>
  </summary>
+ Resourses:
+ - <a href="http://bolyai.cs.elte.hu/~szucs/Top1-2.pdf" target="blank">András Szűcs's Lecture Notes</a> (in Hungarian)
+
+ Content:
+ - Topological spaces, continous functions, subspaces, factor spaces, product spaces
+ - Separation axioms, Urison lemma, Tietze theorem, topological basis, separable spaces
+ - Compact metric spaces, Tyhonov theorem, Connected spaces
+ - Homothopy, fundamental groups, Covering space
+ - Hairy ball theorem, Fundamental theorem of Algebra, Brouwer fixpoint theorem
+ 
 </details>
 
 <details markdown="1">
@@ -469,6 +503,16 @@ Content:
        Geometry II (Euclidean)
    </strong>
  </summary>
+ Resources:
+ 
+ -<a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Isometries of Euclidean spaces, orthogonal transformations, shifts, orthogonal decompositions, symmetries, projections to subspaces
+ - Orhogonal groups, SO(3), isometries as producrs of relfections
+ - Polyhedrons, Polytopes, Similarity transformations, groups
+ - Inversive geometry, Spheres, Stereographic projection, Möbius transformatios
+ 
 </details>
 
 <details markdown="1">
@@ -477,6 +521,15 @@ Content:
       Operation Research I
    </strong>
  </summary>
+ Resources:
+ - <a href="http://tkiraly.web.elte.hu/students/opkut_jegyzet_tamop.pdf" target="blank">András Frank's Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ - Shortest paths: Dijkstra, Bellman-Ford algorithms
+ - Matchings: Kuhn Hungarian method, weighted maximal matching, Network flows
+ - Linear inequality systems, Fourier-Motzkin elimination, Basic solutions, Farkas's lemma
+ - Linear programming, Duality theorem, Simplex method, TU matrices and applications to network optimization
+  
 </details>
 
 <details markdown="1">
@@ -485,6 +538,12 @@ Content:
       Differential Equations
    </strong>
  </summary>
+ 
+ Resources:
+ - <a href="https://simonp.web.elte.hu/files/kozdiff.pdf" target="blank">Péter Simon's Lecture Notes</a> (in Hungarian)
+ 
+ Content:
+ 
 </details>
 
  
