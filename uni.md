@@ -738,7 +738,8 @@ Content:
  - Divisibility, Euclidean algorithm, Prime numbers, Fundamental theorem of arithmetic, gcd
  - Multiplicative and Additive Arithmetic functions,
  - Congruences, Euler's totient function, Reduced residue system, Euler-Fermat theorem
- - 
+ - Linear congruence systems, Wilson theorem, primitive roots, Chinese remainder theorem
+ - Quadratic reciprocity, Legenrdre symbols
  
   </details>
   
@@ -750,7 +751,12 @@ Content:
  </summary>
  
  Content:
- 
+ - Combinatorics, permuatations, binomial coefficients
+ - Graphs, paths, Kőnig lemma, Euler cycle, Hamiltonian path, Dirac theorem
+ - Graph coloring, Six/five/four color theorem,  
+ - Brooks theorem, Vizing's theorem and edge chromatic number
+ - Kuratowski's theorem, Kruskal's algorithm, matchings
+ - Turán graphs, Ramsey graphs
   </details>
  
 
