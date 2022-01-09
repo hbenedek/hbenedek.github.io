@@ -17,8 +17,8 @@ minimal: true             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "blog.md", title: "Blog"}
-  - {file: "projects.md", title: Projects}
-  - {file: "uni.md", title: "University"}
+  - {file: "projects.md", title: "Projects"}
+  - {file: "uni.md", title: "Studies"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/hbenedek"}
