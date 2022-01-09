@@ -10,7 +10,7 @@ My name is Ben, I am a Mathematician from Hungary. I learn Data Science and Fina
 <center>
 <style>.roundimg {border-radius: 50%;}</style>
 <img src="profile_pic.jpg" alt="Avatar" width=400 class="roundimg">
-<\center>
+</center>
 
 Here is my <a href="./CV_2021_12.pdf" target="blank">CV</a>.
 
