@@ -207,6 +207,31 @@ title: ""
   - Applications: the heat core, Poisson summation, Heisenberg's uncertainty principle
   - The wave equation. The Huygens principle in dimensions 1 and 3. The Radon Transformation
 </details>
+
+<details markdown="1">
+  <summary>  
+   <strong>
+    Bachelor thesis: Graph Convolutional Netwoks and Graph Kernel SVMs
+   </strong>
+ </summary>
+ 
+ Resources:
+ - [Thesis](https://web.cs.elte.hu/blobs/diplomamunkak/bsc_mat/2021/harsanyi_benedek.pdf) (in Hungarian)
+ - Kernel Methods for Pattern Analysis (Royal Holloway John Shawe-Taylor, John Shawe-Taylor)
+ - [Convolutional Neural Networks on Graphs
+with Fast Localized Spectral Filtering](https://proceedings.neurips.cc/paper/2016/file/04df4d434d481c5bb723be1b6df1ee65-Paper.pdf)
+ - [SplineCNN: Fast Geometric Deep Learning with Continuous B-Spline Kernels](https://arxiv.org/abs/1711.08920) 
+ - [Weisfeiler-Lehman Graph Kernels](https://www.jmlr.org/papers/volume12/shervashidze11a/shervashidze11a.pdf)
+ 
+ Content:
+ - Topics from graph theory: Laplace matrix, spectrum, graph convolution
+ - Graph convolution filters: Chebyshev, Cayley, ARMA, B-splines
+ - Weisfeiler-Lehman Graph Kernels and Support Vector Machines
+ - Revisiting Image classification on MNIST with GCNs, enzyme classification on PROTEINS dataset
+ - Other applications: graph based recommander systems, combinatorial optimization
+ 
+ </details>
+  
  
 ### 2020 Fall
 
