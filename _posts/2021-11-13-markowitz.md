@@ -3,6 +3,9 @@ title: "Markowitz Portfolio Optimization"
 layout: post
 ---
 
+Under construction.
+
+TODO:
  - Loading the data
  - risk and return
  - calculating annualized values
