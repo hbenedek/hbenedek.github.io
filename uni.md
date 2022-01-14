@@ -4,7 +4,6 @@ title: ""
 ---
 
 # École Polytechnique Fédérale de Lausanne (Data Science)
----
 
 ### 2021 Fall
 
@@ -145,11 +144,11 @@ title: ""
    - Interpreting Functional Languages
 </details>
 
-
+---
 
 # Eötvös Loránd University (Pure Mathematics)
 
----
+
 
 ### 2021 Spring
 <details markdown="1">
