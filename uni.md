@@ -4,7 +4,7 @@ title: ""
 ---
 
 # École Polytechnique Fédérale de Lausanne (Data Science)
-
+---
 
 ### 2021 Fall
 
@@ -145,10 +145,11 @@ title: ""
    - Interpreting Functional Languages
 </details>
 
----
+
 
 # Eötvös Loránd University (Pure Mathematics)
 
+---
 
 ### 2021 Spring
 <details markdown="1">
@@ -162,7 +163,7 @@ title: ""
   - <a href="statistics.pdf" target="blank">Lecture Notes</a> (in Hungarian)
   
   Content:
-  -Statistical field, Distribution of experience, Glivenko-Cantelli theorem, Sufficiency, Fisher information
+  - Statistical field, Distribution of experience, Glivenko-Cantelli theorem, Sufficiency, Fisher information
   - Point estimates, unbiasedness, permissibility, minimality, effectiveness, consistency, Blackwellization, Information limit
   - Empirical estimates, momentum method, maximum-likelihood estimation, Bayes estimate. 
   - Hypothesis testing, Neyman-Pearson's lemma, Classic parametric tests. c2 tests, Classic non-parametric tests. 
