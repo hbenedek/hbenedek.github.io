@@ -101,7 +101,7 @@ TODO: introducing portfolio weights
 
 <center>
     $$\huge{\min_w w^T \Sigma w \\
-    w.r.t. \mu_0 = w^T \mu ~~~ 1 = \mathbb{1}^T w$}$
+    w.r.t. \mu_0 = w^T \mu ~~~ 1 = \mathbb{1}^T w$}$$
 </center>
 
 ```python
