@@ -56,11 +56,24 @@ returns = df / df.shift(1) - 1
 annualized_mean = returns.mean() * 12
 ```
     
-If we look at the returns of *1* and *2* we see that the returns of *1* is not that spread out as the return on *2*, which we could win more if investing in *2*, but there is a bigger chance of getting negative returns as well. This property of an investment called the risk and measured by the standard deviation of the underlying random variable. We again use the empirical distribution of the realized returns to estimate the variance 
+If we look at the returns of *1* and *2* we see that the returns of *1* is not that spread out as the return on *2*, which we could win more if investing in *2*, but there is a bigger chance of getting negative returns as well. 
+
+```python
+f, ax = plt.subplots(1,2, figsize=(14, 6),sharex=True)
+f.suptitle('returns on Apple and Citi Group')
+ax[0].set(ylabel='Frequency', xlabel='Apple returns')
+ax[1].set(ylabel='Frequency', xlabel='Citi Group returns')
+returns['AAPL'].hist(ax=ax[0], bins=20)
+returns['C'].hist(ax=ax[1], bins=20)
+```
+
+![png](../images/2021-11-13-markowitz/apple_citi.png)
+
+This property of an investment called the risk and measured by the standard deviation of the underlying random variable. We again use the empirical distribution of the realized returns to estimate the variance 
 <center>
- $$\huge{Var(R)=\frac{1}{T-1}\sum_{t=1}^T (R_t-\overline{R})^2}$$
+ $$\huge{\sigma_{monthly}=\frac{1}{T-1}\sum_{t=1}^T (R_t-\overline{R})^2}$$
 </center>
-where $\huge{\overline{R}}$ denotes the average realized return. To convert it to annualized value we multiply it by $\huge{\sqrt{12}}$.
+where $\huge{\overline{R}}$ denotes the average realized return. To convert it to annualized value we multiply it by $\huge{\sqrt{12}\sigma_{monthly}}$.
     
 ```python
 std = returns.std()
@@ -81,3 +94,6 @@ ax.yaxis.set_major_formatter(mtick.PercentFormatter())
 ax.xaxis.set_major_formatter(mtick.PercentFormatter())
 ```
     
+![png](../images/2021-11-13-markowitz/scatter.png)
+
+
