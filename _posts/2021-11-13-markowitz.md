@@ -53,10 +53,31 @@ We can calculate the monthly realized returns with the formula $\huge{R_{t+1}=\f
     
 ```python
 returns = df / df.shift(1) - 1
+annualized_mean = returns.mean() * 12
 ```
-
+    
 If we look at the returns of *1* and *2* we see that the returns of *1* is not that spread out as the return on *2*, which we could win more if investing in *2*, but there is a bigger chance of getting negative returns as well. This property of an investment called the risk and measured by the standard deviation of the underlying random variable. We again use the empirical distribution of the realized returns to estimate the variance 
 <center>
  $$\huge{Var(R)=\frac{1}{T-1}\sum_{t=1}^T (R_t-\overline{R})^2}$$
 </center>
 where $\huge{\overline{R}}$ denotes the average realized return. To convert it to annualized value we multiply it by $\huge{\sqrt{12}}$.
+    
+```python
+std = returns.std()
+annualized_std = std*np.sqrt(12)
+```
+We can visualize the results on a scatterplot
+    
+```python    
+f, ax = plt.subplots(1, figsize=(10,6))
+ax.set(xlabel='avg standard deviation', ylabel='avg return', title='annualized returns vs standard deviation of 12 stocks')
+ax.scatter(y=annualized_std*100, x=annualized_mean*100, color='red')
+
+for i, idx in enumerate(annualized_std.index):
+    ax.annotate(idx, (annualized_mean[i]*100 + 0.2, annualized_std[i]*100 + 0.2))
+
+#setting the axes to %
+ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+ax.xaxis.set_major_formatter(mtick.PercentFormatter())
+```
+    
