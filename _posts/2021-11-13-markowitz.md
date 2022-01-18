@@ -99,6 +99,11 @@ ax.xaxis.set_major_formatter(mtick.PercentFormatter())
 
 TODO: introducing portfolio weights
 
+<center>
+    $$\huge{\min_w w^T \Sigma w \\
+    w.r.t. \mu_0 = w^T \mu ~~~ 1 = \mathbb{1}^T w$}$
+</center>
+
 ```python
 def weight_cons(w):
     """the weights of our portfolio should be equal to 1"""
