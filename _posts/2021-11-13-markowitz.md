@@ -30,19 +30,19 @@ MathJax.Hub.Queue(function() {
 
 Under construction.
 
-TODO:
- - Loading the data
- - risk and return
- - calculating annualized values
- - quadratic programming 
- - solving the problem and plotting with random portfolios
-
 ---
 
 First we load the data from yahoo, we use yfinance to do so. In tickers we specify which stocks to load, start and end simply denotes the time window we are interested in, in our case we chose a twelwe-year period between 2008 and 2020. The parameter interval is set to 1m , this will load one data point in each month (the first business day of each month), for twelve years it is 156 data points per stock. We are only interested in the closing price after adjustments so we take the columns Adjusted Close from our dataframe.
 
 ```python
+from functools import partial
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+import numpy as np
+import pandas as pd
+from scipy import optimize
 import yfinance as yf
+
 tickers = ['aapl', 'jnj', 'jpm', 'pg', 'xom', 'pfe', 'msft', 't', 'c', 'orcl', 'ge', 'wfc']
 df = yf.download(tickers, data_source='yahoo', start='2008-01-01', end='2020-12-31', interval='1mo')['Adj Close'].dropna()
 stocks = [t.upper() for t in tickers]
@@ -97,3 +97,21 @@ ax.xaxis.set_major_formatter(mtick.PercentFormatter())
 ![png](../images/2021-11-13-markowitz/scatter.png)
 
 
+TODO: introducing portfolio weights
+
+```python
+def weight_cons(w):
+    """the weights of our portfolio should be equal to 1"""
+    return w.sum() -1 
+
+def expected_return_cons(w, returns, target):
+    """the expected return of our portfolio should be equal to 'target'"""
+    return w.T @ returns - target
+
+def minimize_volatility(w):
+    """we wish to minimize the volatility of our portfolio, using the covariance matrix"""
+    return w.T @ Sigma @ w
+
+# if short sales are NOT allowed the parameters should be in tha range (0, \infty)
+no_short_sale = [(0, None) for _ in range(12)]
+```
