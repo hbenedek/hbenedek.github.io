@@ -97,7 +97,7 @@ ax.yaxis.set_major_formatter(mtick.PercentFormatter())
 ax.xaxis.set_major_formatter(mtick.PercentFormatter())
 ```
     
-![png](../images/2021-11-13-markowitz/scatter_2.png)
+![png](../images/2021-11-13-markowitz/scater_2.png)
 
 From the stocks above we can construct a portfolio, by deciding the the fraction of the total investment in
 the portfolio held in each individual stock. This $\huge{w\in\mathbb{R}^{12}}$ will determine our investment strategy. Note that our weights can be negative as well, this correspond to short selling. For a given weight vector, we can determine the the expected return of the portfolio, which is the weighted average of the returns
@@ -105,31 +105,23 @@ the portfolio held in each individual stock. This $\huge{w\in\mathbb{R}^{12}}$ w
  $$\huge{R_p=\sum_{i}w_i R_i = w^T\mu}$$.
 </center>
 For example we could construct the uniform portfolio, which means we invest $$\huge{\frac{1}{12}}$$ of our money in each stock. Our goal is to determine the best possible allocation of our money. For this we will revisit the notion of risk. We need to know the degree to which the stocks face common risks and their returns move together. We can estimate the covariance from historical data with
-
 <center>
     $$\huge{Cov(R_i,R_j)=\frac{1}{T-1}\sum_{t=1}^T (R_{i,t}-\overline{R_i})(R_{j,t}-\overline{R_j})}$$
 </center>
-
 Finally, we derive a formula for estimating the risk for a weighted portfolio
-
 <center>
     $$\huge{Var(R_p)=Cov(R_p,R_p)=Cov(\sum_{i}w_i R_i, \sum_{j}w_j R_j)= \sum_{i,j} w_i Cov(R_i,R_j) w_j = w^T \Sigma w}$$.
 </center>
-
 So we can formalize our goal as a quadratic optimization problem. For a determined desired return we wish to minimize the risk of our investment by choosing our portfolio weight vectors optimally. 
-
 <center>
     $$\huge{\min_w w^T \Sigma w \\
     w.r.t. ~~~ \mu_0 = w^T \mu ~~~ 1 = 1^T w}$$
 </center>
-
 If we allow short sales a constraint should be added $w \geq 0$. Now we can move on and calculate the covariance matrix for our data.
-
 
 ```python
 Sigma = returns.cov() * 12
 ```
-
 We will use the *optimize* function from scipy package. This needs the objective function and the constraints as inputs, which we define below.
 
 ```python
