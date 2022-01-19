@@ -1,8 +1,6 @@
 ---
-title: "Markowitz Portfolio Optimization"
+title: "Markowitz Portfolio Optimization in Python"
 layout: post
-
-This assignment was made as part of the course [FIN-401 Introduction to Finance](https://edu.epfl.ch/coursebook/en/introduction-to-finance-FIN-401) at EPFL (fall 2021). 
 ---
 
 <style TYPE="text/css">
@@ -30,7 +28,9 @@ MathJax.Hub.Queue(function() {
 </script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-Under construction.
+    
+This assignment was made as part of the course [FIN-401 Introduction to Finance](https://edu.epfl.ch/coursebook/en/introduction-to-finance-FIN-401) at EPFL (fall 2021). 
+
 
 ---
 
