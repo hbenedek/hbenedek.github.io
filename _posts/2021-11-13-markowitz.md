@@ -44,11 +44,12 @@ import numpy as np
 import pandas as pd
 from scipy import optimize
 import yfinance as yf
-
+```
+    
+```python
 tickers = ['aapl', 'jnj', 'jpm', 'pg', 'xom', 'pfe', 'msft', 't', 'c', 'orcl', 'ge', 'wfc']
 df = yf.download(tickers, data_source='yahoo', start='2008-01-01', end='2020-12-31', interval='1mo')['Adj Close'].dropna()
 stocks = [t.upper() for t in tickers]
-
 ```
 
 We can calculate the monthly realized returns with the formula $\huge{R_{t+1}=\frac{P_{t+1}}{P_{t}} - 1}$. If we invest in a stock at time t and the quantity $\huge{R_{t+1}}$ is bigger than 0, then we made a profit and the return on our investment is $\huge{R_{t+1}}$ percent. Now we can approximate the annualized return by $\huge{R_{annual} =12 \overline{R}_{monthly} }$, where $\huge{\overline{R}}$ denotes the average realized return. Now we have one quantity for each stock, which tells us based on historical data how well did that stock performed on average. 
