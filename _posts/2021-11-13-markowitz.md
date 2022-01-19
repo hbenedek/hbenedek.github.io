@@ -29,7 +29,7 @@ MathJax.Hub.Queue(function() {
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
     
-This assignment was made as part of the course [FIN-401 Introduction to Finance](https://edu.epfl.ch/coursebook/en/introduction-to-finance-FIN-401) at EPFL (fall 2021). 
+This assignment was made as part of the course [FIN-401 Introduction to Finance](https://edu.epfl.ch/coursebook/en/introduction-to-finance-FIN-401) at EPFL (fall 2021). You can read more about risk and return in Corporate Finance (Berk & DeMarzo).
 
 
 ---
@@ -59,7 +59,7 @@ returns = df / df.shift(1) - 1
 annualized_mean = returns.mean() * 12
 ```
     
-If we look at the returns of *1* and *2* we see that the returns of *1* is not that spread out as the return on *2*, which we could win more if investing in *2*, but there is a bigger chance of getting negative returns as well. 
+If we look at the returns of Apple and Citi Group we see that the returns on Apple are not that spread out as the returns on Citi Group stocks. If investing in Citi Group we might het higher return, but there is a bigger chance of getting negative returns as well. 
 
 ```python
 f, ax = plt.subplots(1,2, figsize=(14, 6),sharex=True)
@@ -117,7 +117,7 @@ So we can formalize our goal as a quadratic optimization problem. For a determin
     $$\huge{\min_w w^T \Sigma w \\
     w.r.t. ~~~ \mu_0 = w^T \mu ~~~ 1 = 1^T w}$$
 </center>
-If we allow short sales a constraint should be added $w \geq 0$. Now we can move on and calculate the covariance matrix for our data.
+If we allow short sales a constraint should be added $\huge{w \geq 0}$. Now we can move on and calculate the covariance matrix for our data.
 
 ```python
 Sigma = returns.cov() * 12
