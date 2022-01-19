@@ -113,14 +113,14 @@ For example we could construct the uniform portfolio, which means we invest $$\h
 Finally, we derive a formula for estimating the risk for a weighted portfolio
 
 <center>
-    $$\huge{Var(R_p)=Cov(R_p,R_p)=Cov(\sum_{i}w_i R_i, \sum_{j}w_j R_j)= \sum_{i,j} w_i Cov(R_i,R_j) w_j = w^T \Sigma w$$.
+    $$\huge{Var(R_p)=Cov(R_p,R_p)=Cov(\sum_{i}w_i R_i, \sum_{j}w_j R_j)= \sum_{i,j} w_i Cov(R_i,R_j) w_j = w^T \Sigma w}$$.
 </center>
 
 So we can formalize our goal as a quadratic optimization problem. For a determined desired return we wish to minimize the risk of our investment by choosing our portfolio weight vectors optimally. 
 
 <center>
     $$\huge{\min_w w^T \Sigma w \\
-    w.r.t. ~~~ \mu_0 = w^T \mu ~~~ 1 = \mathbb{1}^T w$}$
+    w.r.t. ~~~ \mu_0 = w^T \mu ~~~ 1 = 1^T w}$$
 </center>
 
 If we allow short sales a constraint should be added $w \geq 0$. Now we can move on and calculate the covariance matrix for our data.
