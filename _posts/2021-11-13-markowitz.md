@@ -229,7 +229,7 @@ returns = df / df.shift(1)
 returns = returns.fillna(1)
 ```
 
-The question is now how can we calculate for a given weight vector $\huge{w}$ the returns in each month. For that we will accumulate the returns on the stocks, such that $\huge{R_{ij} = (1+R_i,1)(1+R_i,2)\ldots(1+R_i,j)}$. This gives us tha matrix $\huge{R}$. We can calculate the monthly return for a given portfolio choice with the matrix multiplication $\huge{Rw}$.
+The question is now how can we calculate for a given weight vector $\huge{w}$ the returns in each month. For that we will accumulate the returns on the stocks, such that $\huge{R_{ij} = (1+R_{i,1})(1+R_{i,2})\ldots(1+R_{i,j})}$. This gives us tha matrix $\huge{R}$. We can calculate the monthly return for a given portfolio choice with the matrix multiplication $\huge{Rw}$.
 
 ```python
 R = returns.cumprod().to_numpy()
