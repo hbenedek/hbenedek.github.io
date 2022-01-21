@@ -34,7 +34,7 @@ This assignment was made as part of the course [FIN-401 Introduction to Finance]
 
 ---
 
-First we load the data from yahoo, we use yfinance to do so. In tickers we specify which stocks to load, start and end simply denotes the time window we are interested in, in our case we chose a twelwe-year period between 2008 and 2020. The parameter interval is set to 1m , this will load one data point in each month (the first business day of each month), for twelve years it is 156 data points per stock. We are only interested in the closing price after adjustments so we take the columns Adjusted Close from our dataframe.
+First we load the data from yahoo, we use yfinance to do so. In tickers we specify which stocks to load, start and end simply denotes the time window we are interested in, in our case we chose a twelve-year period between 2008 and 2020. The parameter interval is set to 1m , this will load one data point in each month (the first business day of each month), for twelve years it is 156 data points per stock. We are only interested in the closing price after adjustments so we take the columns Adjusted Close from our dataframe.
 
 ```python
 from functools import partial
@@ -208,7 +208,7 @@ ax.xaxis.set_major_formatter(mtick.PercentFormatter())
 
 ![png](../images/2021-11-13-markowitz/scatter_3.png)
 
-Fianlly we can observe the weights of the resulting portfolio with a target return of 5%.
+We can observe the weights of the resulting portfolio with a target return of 5%.
 
 ```python
 f, ax = plt.subplots(nrows=1, ncols=1, figsize=(10,8))
@@ -218,3 +218,42 @@ sns.barplot(x=optimals_05.index, y=optimals_05[1], color='blue', label='with sho
 ```
 
 ![png](../images/2021-11-13-markowitz/bar.png)
+
+Finally let's play a bit. Suppose we try out our investment strategy and evaluate our constructed portfolio on the 2021 data. Similarly we can download the monthly adjusted closed prices from yahoo using yfinance. Again we can calculate the returns on the individual stocks, with two additional changes: firstly we do not subtract one from the returns so a 10% return will be present as 1.1 in our dataframe, second we also set the returns on the first month equal to one. In this way it will be easier to accumulate the returns.  
+
+```python
+tickers = ['aapl', 'jnj', 'jpm', 'pg', 'xom', 'pfe', 'msft', 't', 'c', 'orcl', 'ge', 'wfc']
+df = yf.download(tickers, data_source='yahoo', start='2021-01-01', end='2021-12-31', interval='1mo')['Adj Close'].dropna()
+stocks = [t.upper() for t in tickers]
+returns = df / df.shift(1) 
+returns = returns.fillna(1)
+```
+
+The question is now how can we calculate for a given weight vector $\huge{w}$ the returns in each month. For that we will accumulate the returns on the stocks, such that $\huge{R_{ij} = (1+R_i,1)(1+R_i,2)\ldots(1+R_i,j)}$. This gives us tha matrix $\huge{R}. We can calculate the monthly return for a given portfolio choice with the matrix multiplication $\huge{Rw}$.
+
+```python
+R = returns.cumprod().to_numpy()
+```
+
+We will evaluate three different portfolio choices. First we evaluate the optimal portfolio with short sales for a target return of 30%. We also check the uniform portfolio, which corresponds to a $\huge{\frac{1}{12}}$ weight to each stock. We can also check what happens if we invest only in the most profitable stock on its own, Apple. This corresponds to the vector $\huge{(1,0,\ldots,0)}$.
+
+```python
+w = optimals[(optimals['short_sales_allowed'] == 1) & (optimals['target_returns'] == 0.3)][stocks].to_numpy()
+w_uniform = np.ones(12) / 12
+
+w_apple = np.zeros(12)
+w_apple[0] = 1
+```
+
+We evaluate the performances and plot the results. It seems that we are lucky and the optimal portfolio indeed outperformes both Apple and the uniform portfolio.
+
+```python
+f, ax = plt.subplots(nrows=1, ncols=1, figsize=(10,8))
+ax.plot((R @ w.T * 100), label='optimal')
+ax.plot((R @ w_uniform.T * 100), label='uniform')
+ax.plot((R @ w_apple.T * 100), label='apple')
+ax.set(ylabel='value of investment', xlabel='time')
+ax.legend()
+```
+
+![png](../images/2021-11-13-markowitz/predict.png)
