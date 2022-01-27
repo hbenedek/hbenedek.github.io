@@ -355,7 +355,7 @@ Content:
 
 </details>
 
-### 2019 Spring
+### 2020 Spring
 
 <details markdown="1">
   <summary>  
@@ -602,7 +602,7 @@ Content:
 </details>
 
 
-### 2018 Spring
+### 2019 Spring
 
 <details markdown="1">
   <summary>  
