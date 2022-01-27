@@ -5,6 +5,30 @@ title: ""
 
 # École Polytechnique Fédérale de Lausanne (Data Science)
 
+### 2022 Spring
+
+<details markdown="1">
+<summary><strong> Systems for Data Science </strong></summary>
+</details>
+<details markdown="1">
+<summary><strong> Advanced Algorithms </strong></summary>
+</details>
+<details markdown="1">
+<summary><strong> Artificial Neural Networks </strong></summary>
+</details>
+<details markdown="1">
+<summary><strong> Time Series </strong></summary>
+</details>
+<details markdown="1">
+<summary><strong> Financial Derivatives </strong></summary>
+</details>
+<details markdown="1">
+<summary><strong> Signal Processing for Communications </strong></summary>
+</details>
+<details markdown="1">
+<summary><strong> Database Systems </strong></summary>
+</details>
+
 ### 2021 Fall
 
 <details markdown="1">
@@ -101,7 +125,7 @@ title: ""
 <details markdown="1">
   <summary>  
    <strong>
-   Introduction to Finance
+   Corporate Finance
    </strong>
  </summary>
   
@@ -577,11 +601,6 @@ Content:
  
 </details>
 
- 
-
-
-
- 
 
 ### 2018 Spring
 
@@ -632,7 +651,7 @@ Content:
    </strong>
  </summary>
  
-  Resources:
+ Resources:
  -<a href="http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf" target="blank">Gábor Moussong's Lecture Notes</a> (in Hungarian)
  
  Content:
@@ -690,7 +709,7 @@ Content:
  - Basic algorthims, loops, max searching, summing, orderings
  - Loops, condtions, cycles, functions types
  - Compile, run, environments
- - 
+ 
  </details>
  
  <details markdown="1">
