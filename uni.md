@@ -9,24 +9,115 @@ title: ""
 
 <details markdown="1">
 <summary><strong> Systems for Data Science </strong></summary>
+
+Content:
+  - Big data systems design and implementation:
+    1. Distributed systems for data science
+    2. Data management : locality, accesses, partitioning    replication
+    3. Distributed Machine Learning Systems : federated learning/parameter server/decentralized learning
+    4. Massively parallel processing operations
+  - Large-scale storage systems:
+    1. Data structures : File systems, Key-value stores, DBMS
+    2. Consistency models. The CAP theorem. NoSQL and NewSQL systems
+    3. Transactions
+  - Large-scale processing:
+    1. Parallel processing
+    2. Streaming Processing
+    3. Online Processing
+    4. Graph Processing
+
 </details>
 <details markdown="1">
 <summary><strong> Advanced Algorithms </strong></summary>
+
+Resources:
+ - [Course website](https://theory.epfl.ch/courses/AdvAlg/)
+
+ Content:
+ - Algorithm analysis techniques: worst-case and amortized, average-case, randomized, competitive, approximation. 
+ - Basic algorithm design techniques: greedy, iterative, incremental, divide-and-conquer, dynamic programming, randomization, linear programming.
+ - Examples from graph theory, linear algebra, geometry, operations research, and finance.
+
 </details>
 <details markdown="1">
-<summary><strong> Artificial Neural Networks </strong></summary>
+<summary><strong> Artificial Neural Networks </strong><summary>
+
+Content:
+  - General Introduction: Deep Networks versus Simple perceptrons
+  - Reinforcement Learning 1: Bellman equation and SARSA, Q-learning, n-step-TD learning, Policy gradient, 
+  - Deep Networks: Convnets, Statistical Classification by deep networks
+  - Deep reinforcement learning: Exploration, Actor-Critic networks, Atari games and robotics, Board games and planning, Sequences, recurrent networks, partial observability
+
 </details>
+
 <details markdown="1">
 <summary><strong> Time Series </strong></summary>
+
+Content:
+- stochastic processes; stationarity; trend and seasonality.
+- Autocorrelation and related functions.
+- Stationary linear processes: theory and applications.
+- ARIMA, SARIMA models and their use in modelling.
+- Prediction of stationary processes.
+- Spectral representation of a stationary process: theory and applications.
+- Financial time series: ARCH, GARCH models.
+- State-space models: Kalman filter.
+- VAR and other simple multivariate time series models
+
 </details>
+
 <details markdown="1">
 <summary><strong> Financial Derivatives </strong></summary>
+
+Content:
+1. Discrete-time models
+ - Introduction to derivatives products and markets
+ - Model free results and static models
+ - Multiperiod discrete-time models
+ - American options and applications
+ - Convergence
+2. Continuous-time models
+ - Arbitrage, valuation and hedging in continuous-time
+ - The Black-Scholes model
+ - Foreign exchange products
+ - American derivatives
+ - Implied, local, and stochastic volatility
+ - Exotic options
+
 </details>
+
 <details markdown="1">
 <summary><strong> Signal Processing for Communications </strong></summary>
+
+Content:
+- Basic discrete-time signals and systems: signal classes and operations on discrete-time signals, signals as vectors in Hilbert space
+- Fourier Analysis: properties of Fourier transforms, DFT, DTFT; FFT.
+- Discrete-Time Systems: LTI filters, convolution and modulation; difference equations; FIR vs IIR, stability issues.
+- Z-transform: properties and regions of convergence, applications to linear systems.
+- Filter Design: FIR design methods, IIR design methods, filter structures.
+- Stochastic and Adaptive Signal Processing: random processes, spectral representation, Optimal Least Squares adaptive filters.
+- Interpolation and Sampling: the continuous-time paradigm, interpolation, the sampling theorem, aliasing.
+- Quantization: A/D and D/A converters.
+- Multi-rate signal processing: upsampling and downsampling, oversampling.
+- Multi-dimensional signals and processing: introduction to Image Processing.
+- Practical applications: digital communication system design, ADSL.
+
 </details>
+
 <details markdown="1">
 <summary><strong> Database Systems </strong></summary>
+
+Content:
+- The Entity-relationship and Relational Models
+- Relational Algebra and Calculus
+- The SQL Query Language
+- Traditional and Modern Data Storage, File Organizations, and Indexing
+- Hashing and Sorting
+- Query Evaluation and Relational Operators
+- Query Optimization
+- Schema Refinement
+- Transaction Management (Concurrency Control and Recovery)
+
 </details>
 
 ### 2021 Fall
