@@ -27,6 +27,7 @@ Content:
     4. Graph Processing
 
 </details>
+
 <details markdown="1">
 <summary><strong> Advanced Algorithms </strong></summary>
 
@@ -39,14 +40,15 @@ Resources:
  - Examples from graph theory, linear algebra, geometry, operations research, and finance.
 
 </details>
+
 <details markdown="1">
 <summary><strong> Artificial Neural Networks </strong><summary>
 
 Content:
-  - General Introduction: Deep Networks versus Simple perceptrons
-  - Reinforcement Learning 1: Bellman equation and SARSA, Q-learning, n-step-TD learning, Policy gradient, 
-  - Deep Networks: Convnets, Statistical Classification by deep networks
-  - Deep reinforcement learning: Exploration, Actor-Critic networks, Atari games and robotics, Board games and planning, Sequences, recurrent networks, partial observability
+- General Introduction: Deep Networks versus Simple perceptrons
+- Reinforcement Learning 1: Bellman equation and SARSA, Q-learning, n-step-TD learning, Policy gradient, 
+- Deep Networks: Convnets, Statistical Classification by deep networks
+- Deep reinforcement learning: Exploration, Actor-Critic networks, Atari games and robotics, Board games and planning, Sequences, recurrent networks, partial observability
 
 </details>
 
@@ -266,6 +268,7 @@ Content:
 
 
 ### 2021 Spring
+
 <details markdown="1">
   <summary>  
    <strong>
