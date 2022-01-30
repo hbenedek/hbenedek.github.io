@@ -3,8 +3,8 @@ layout: page
 title: ""
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="" %}
-{% endif %}
+{% for post in site.posts %}
+    {% if post.categories contains "project" %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
