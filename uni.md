@@ -42,7 +42,7 @@ Resources:
 </details>
 
 <details markdown="1">
-<summary><strong> Artificial Neural Networks </strong><summary>
+<summary><strong> Artificial Neural Networks </strong></summary>
 
 Content:
 - General Introduction: Deep Networks versus Simple perceptrons
