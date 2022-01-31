@@ -3,6 +3,8 @@ layout: page
 title: ""
 ---
 
+Summary posts on my university projects:
+
 <ul>
 {% for post in site.posts %}
     {% if post.categories contains "project" %}

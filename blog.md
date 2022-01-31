@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-Under construction.
+
 
 <ul>
 {% for post in site.posts %}

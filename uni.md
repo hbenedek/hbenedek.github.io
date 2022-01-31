@@ -3,6 +3,8 @@ layout: page
 title: ""
 ---
 
+A brief description of all the courses I followed during my bachelor and master studies.
+
 # École Polytechnique Fédérale de Lausanne (Data Science)
 
 ### 2022 Spring
