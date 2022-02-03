@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-
+Short posts on my side-projects:
 
 <ul>
 {% for post in site.posts %}
