@@ -1,0 +1,8 @@
+2022.02.05 10:41:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ubuntu/Documents/work/website/hbenedek.github.io/.metals/lsp.trace.json or /home/ubuntu/.cache/metals/lsp.trace.json[0m
+2022.02.05 10:41:18 INFO  logging to file /home/ubuntu/Documents/work/website/hbenedek.github.io/.metals/metals.log[0m
+2022.02.05 10:41:18 INFO  Started: Metals version 0.11.1 in workspace '/home/ubuntu/Documents/work/website/hbenedek.github.io' for client Visual Studio Code 1.60.1.[0m
+2022.02.05 10:41:18 INFO  Parse release: 1.8.0_292[0m
+2022.02.05 10:41:20 INFO  time: initialize in 2.51s[0m
+2022.02.05 10:41:24 WARN  Build server is not auto-connectable.[0m
+2022.02.05 10:41:24 WARN  no build tool detected in workspace '/home/ubuntu/Documents/work/website/hbenedek.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.02.05 14:18:52 INFO  shutting down Metals[0m
