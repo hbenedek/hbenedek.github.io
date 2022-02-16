@@ -41,3 +41,7 @@ Computer Science:
 - Andy Hunt and Dave Thomas: The Pragmatic Programmer
 - Thomas H. Cormen: Introduction to Algorithms, third edition*
 - François Dupire: Git Essentials: Developer's Guide to Git*
+
+---
+
+I make visualizations from Formula 1 laptime and result data to keep my Pandas and Seaborn/Matplotlib knowledge sharpe. If you are interested, check it out on [Instagram](https://www.instagram.com/f1.plotted/) or [Reddit](https://www.reddit.com/user/hben0204). 
