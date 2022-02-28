@@ -35,12 +35,14 @@ Financial Engineering:
 - Shreve: Stochastic Calculus for Finance II: Continuous-Time Models
 - Berk & DeMarzo: Corporate Finance, 2nd Edition 
 - Ernest P. Chan: Algorithmic Trading: Winning Strategies and Their Rationale
-
+- John C. Hull: Options, Futures, and Other Derivatives*
 
 Computer Science:
 - Andy Hunt and Dave Thomas: The Pragmatic Programmer
-- Thomas H. Cormen: Introduction to Algorithms, third edition*
+- Thomas H. Cormen: Introduction to Algorithms, third edition
 - François Dupire: Git Essentials: Developer's Guide to Git*
+- [interactive vim tutorial](https://www.openvim.com/sandbox.html) and [vim cheat sheet](https://vim.rtorr.com/)
+- Stanley Lippman: C++ Primer*
 
 ---
 
