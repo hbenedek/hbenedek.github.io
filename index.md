@@ -43,6 +43,25 @@ Computer Science:
 - François Dupire: Git Essentials: Developer's Guide to Git*
 - [interactive vim tutorial](https://www.openvim.com/sandbox.html) and [vim cheat sheet](https://vim.rtorr.com/)
 - Stanley Lippman: C++ Primer*
+- Matei Zaharia: Spark: The Definitive Guide: Big Data Processing Made Simple*
+- Johannes Gehrke and Raghu Ramakrishnan: Database Management Systems*
+
+Mathematics:
+- Martin Vetterli and Paolo Prandoni: Signal Processing for Communications
+- Jean Jacod and Philip Protter: Probability Essentials
+- Laczkovich Miklós, T. Sós Vera: Valós analízis I. & II.
+- [Tarcsay Zsigmond: Funkcionálanalízis](http://web.cs.elte.hu/~tarcsay/funkcionalanalizis.pdf)
+- [Lovász László: Algoritmusok Bonyolultsága](https://www.uni-miskolc.hu/~matha/Gacs_Lovasz.pdf)
+- [Moussong Gábor: Geometria (Affin, Euklideszi, Projectív, Hiperbolikus)](http://etananyag.ttk.elte.hu/FiLeS/downloads/_19_Moussong_Geometria.pdf)
+- [Verhóczki László: Klasszikus Differenciálgeometria](https://web.cs.elte.hu/geometry/vl/KlasszDiffGeo.pdf)
+- [Szűcs András: Topológia](http://bolyai.cs.elte.hu/~szucs/Top1-2.pdf)
+- [Pelikán József, Göller Ákos: Algebra (Csoportelmélet, Testek, Gyűrűk, Vektorterek)](https://pelikan.web.elte.hu/algebra.html)
+- [Komjáth Péter: Halmazelmélet](https://web.cs.elte.hu/~kope/oktatas/21tav/ma1.pdf)
+- [Frank András, Király Tamás: Operációkutatás](http://etananyag.ttk.elte.hu/FiLeS/downloads/_Frank_Kiraly_Operaciokut.pdf)
+- [Kós Géza: Komplex Függvénytan](https://kosgeza.web.elte.hu/oktatas/KftJegyzet/KftJegyzet_20220221.pdf)
+- [Kós Géza: Analízis 4, Mértékelmélet](https://kosgeza.web.elte.hu/oktatas/2019tavasz-an4/Analizis4_Jegyzetek_v18.pdf)
+- [Simon L. Péter: Differenciálegyenletek és dinamikai rendszerek](https://simonp.web.elte.hu/files/dinrendjegyzet.pdf)
+- [Elekes György, Brunczel András: Véges Matematika](http://web.cs.elte.hu/~hgy/auxiliary/vegesmat.pdf)
 
 ---
 
