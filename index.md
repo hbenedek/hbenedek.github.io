@@ -19,7 +19,7 @@ Contact me at <a href="mailto:hben.0204@gmail.com" target="_top">hben.0204[at]gm
 
 ---
 
-Books, lecture notes and blogs I read (or plan to read*):
+Books, lecture notes and blogs I read, encountered (or plan to read*):
 
 ML and Statistics:
 - Kevin P. Murphy: Machine Learning: a Probabilistic Perspective
