@@ -43,10 +43,11 @@ Computer Science:
 - François Dupire: Git Essentials: Developer's Guide to Git*
 - [interactive vim tutorial](https://www.openvim.com/sandbox.html) and [vim cheat sheet](https://vim.rtorr.com/)
 - Stanley Lippman: C++ Primer*
-- Matei Zaharia: Spark: The Definitive Guide: Big Data Processing Made Simple*
+- Matei Zaharia: Spark: The Definitive Guide: Big Data Processing Made Simple
 - Johannes Gehrke and Raghu Ramakrishnan: Database Management Systems*
 
 Mathematics:
+- Robert H. Shumway: Time Series Analysis and Its Applications*
 - Martin Vetterli and Paolo Prandoni: Signal Processing for Communications
 - Jean Jacod and Philip Protter: Probability Essentials
 - Laczkovich Miklós, T. Sós Vera: Valós analízis I. & II.
