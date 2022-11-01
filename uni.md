@@ -7,6 +7,73 @@ A brief description of all the courses I followed during my bachelor and master 
 
 # École Polytechnique Fédérale de Lausanne (Data Science)
 
+### 2022 Fall
+
+
+<details markdown="1">
+<summary><strong> Quantitative Risk Management</strong></summary>
+
+Content:
+ - Basics of risk management
+ - Standard statistical methods
+ - Multivariate risk factor models
+ - Modelling dependencies (correlation, copula)
+ - Dynamic EVT models
+ - Credit risk models
+ - Aggregate risk and diversification
+</details>
+
+<details markdown="1">
+<summary><strong> Financial Big Data </strong></summary>
+
+Content:
+  - Big Data
+  1. The future of storage, computing power, efficiency
+  2. Financial data sources and acquisition
+  3. Data cleaning and formatting
+  4. Efficient visualization techniques
+  5. Robust estimators for financial data
+  6. Multicore/GPU and cluster computing
+  7. Out-of-core data analysis
+  - Application to financial data
+  1. Intraday tick-by-tick data
+  2. Dimensionality reduction,
+     Correlation matrix cleaning with random matrix theory,
+     Random Factors,
+     Clustering of assets and days
+  3. Brute-force trading strategy, design and selection, Non-stationary predictions
+Best and worst practices
+</details>
+
+<details markdown="1">
+<summary><strong> Information Security and Privacy </strong></summary>
+
+Content:
+  - Overview of cyberthreats
+  - Exploiting vulnerabilities
+  - Authentication, access control, compartmentalization
+  - Basic applied cryptography
+  - Operational security practices and failures
+  - Machine learning and privacy
+  - Data anonymization and de-anonymization techniques
+  - Privacy enhancing technologies
+  - Blockchain and decentralization
+
+
+</details>
+
+<details markdown="1">
+<summary><strong> Inference on Graphs </strong></summary>
+
+Content:
+  The class covers topics related to statistical inference and algorithms on graphs: basic random graphs concepts, thresholds, subgraph containment (planted clique), connectivity, broadcasting on trees, stochastic block models and perceptron models. 
+</details>
+
+<details markdown="1">
+<summary><strong> Semester Project: Dial a Ride with Reinforcement learning and Transformers </strong></summary>
+</details>
+
+
 ### 2022 Spring
 
 <details markdown="1">
